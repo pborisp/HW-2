@@ -14,7 +14,9 @@ public class Main {
         System.out.println("Значение переменной l с типом long равно "+l);
         System.out.println("Значение переменной f с типом float равно "+f);
         System.out.println("Значение переменной dd с типом double равно "+dd);
+
         //Задача 2
+        System.out.println();
         System.out.println("Задача №2:");
         float bbb=27.12f;
         long lon=987678965549L;
@@ -30,14 +32,18 @@ public class Main {
         System.out.println("Значение переменной fShort с типом short равно "+fShort);
         System.out.println("Значение переменной ddShort с типом short равно "+ddShort);
         System.out.println("Значение переменной byByte с типом byte равно "+byByte);
+
         //Задача 3
+        System.out.println();
         System.out.println("Задача №3:");
         short lud=23, ann=27, ekat=30;
         int all=lud+ann+ekat;
         short list=480;
         int each=list/all;
         System.out.println("На каждого ученика рассчитано " +each+ " листов бумаги");
+
         //Задача 4
+        System.out.println();
         System.out.println("Задача №4:");
         int bottle=16;
         int timeNorma=2;
@@ -49,7 +55,9 @@ public class Main {
         System.out.println("За сутки машина произвела " +day+ " штук бутылок");
         System.out.println("За 3 дня машина произвела " +day3+ " штук бутылок");
         System.out.println("За 1 месяц машина произвела " +month+ " штук бутылок");
+
         //Задача 5
+        System.out.println();
         System.out.println("Задача №5:");
         short can=120;
         byte white=2;
@@ -60,7 +68,9 @@ public class Main {
         int brownCan=allClass*brown;
         System.out.println("В школе, где "+allClass+" классов, нужно "+wightCan+
                 " банок белой краски и "+brownCan+" банок коричневой краски");
+
         //Задача 6
+        System.out.println();
         System.out.println("Задача №6:");
         byte bananas=5;
         int weightBananas=80;
@@ -76,5 +86,21 @@ public class Main {
         double weightKilo=weightGramm/1000;
         System.out.println("Вес завтрака в граммах "+weightGramm+" грамм");
         System.out.println("Вес завтрака в килограммах "+weightKilo+" килограмм");
+
+        //Задача 7
+        System.out.println();
+        System.out.println("Задача №7:");
+        int targetWeight=7;
+        int daysMax, daysMin, days;
+        int weightDayMin=250, weightDayMax=500;
+        daysMin=targetWeight*1000/weightDayMin;
+        System.out.println("Если спортсмен будет терять каждый день по "+weightDayMin+
+                " грамм, на похудение уйдет "+daysMin+" дней");
+        daysMax=targetWeight*1000/weightDayMax;
+        System.out.println("Если спортсмен будет терять каждый день по "+weightDayMax+
+                " грамм, на похудение уйдет "+daysMax+" дней");
+        days=(daysMax+daysMin)/2;
+        System.out.println("Чтобы добиться результата похудения потребуется " +
+                "в среднем "+days+" день(дней)");
     }
 }

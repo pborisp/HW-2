@@ -49,6 +49,18 @@ public class Main {
         System.out.println("За сутки машина произвела " +day+ " штук бутылок");
         System.out.println("За 3 дня машина произвела " +day3+ " штук бутылок");
         System.out.println("За 1 месяц машина произвела " +month+ " штук бутылок");
+        //Задача 5
+        System.out.println("Задача №5:");
+        short can=120;
+        byte white=2;
+        byte brown=4;
+        int schoolClass=white+brown;
+        int allClass=can/schoolClass;
+        int wightCan=allClass*white;
+        int brownCan=allClass*brown;
+        System.out.println("В школе, где "+allClass+" классов, нужно "+wightCan+
+                " банок белой краски и "+brownCan+" банок коричневой краски");
+
 
     }
 }

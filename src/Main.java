@@ -35,6 +35,5 @@ public class Main {
         int each=list/all;
         System.out.println("На каждого ученика рассчитано " +each+ " листов бумаги");
         System.out.println("Задача №4:");
-
     }
 }

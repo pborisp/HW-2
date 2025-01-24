@@ -102,5 +102,24 @@ public class Main {
         days=(daysMax+daysMin)/2;
         System.out.println("Чтобы добиться результата похудения потребуется " +
                 "в среднем "+days+" день(дней)");
+
+        //Задача 8
+        System.out.println();
+        System.out.println("Задача №8:");
+        int person1=67760, person2=83690, person3=76230;
+        int new1, new2, new3;
+        new1=person1*110/100;
+        new2=person2*110/100;
+        new3=person3*110/100;
+        int plus1, plus2, plus3;
+        plus1=new1-person1;
+        plus2=new2-person2;
+        plus3=new3-person3;
+        System.out.println("Маша теперь получает "+new1+
+                " рублей. Годовой доход вырос на "+plus1+" рублей");
+        System.out.println("Денис теперь получает "+new2+
+                " рублей. Годовой доход вырос на "+plus2+" рублей");
+        System.out.println("Кристина теперь получает "+new3+
+                " рублей. Годовой доход вырос на "+plus3+" рублей");
     }
 }

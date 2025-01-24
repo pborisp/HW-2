@@ -60,7 +60,21 @@ public class Main {
         int brownCan=allClass*brown;
         System.out.println("В школе, где "+allClass+" классов, нужно "+wightCan+
                 " банок белой краски и "+brownCan+" банок коричневой краски");
-
-
+        //Задача 6
+        System.out.println("Задача №6:");
+        byte bananas=5;
+        int weightBananas=80;
+        weightBananas*=bananas;
+        double milkMl=200;
+        double weightMilk=milkMl/100*105;
+        int ice=2;
+        int weightIce=ice*100;
+        int egg=4;
+        int weightEgg=egg*70;
+        double weightGramm;
+        weightGramm=weightBananas+weightMilk+weightIce+weightEgg;
+        double weightKilo=weightGramm/1000;
+        System.out.println("Вес завтрака в граммах "+weightGramm+" грамм");
+        System.out.println("Вес завтрака в килограммах "+weightKilo+" килограмм");
     }
 }

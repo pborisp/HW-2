@@ -29,5 +29,12 @@ public class Main {
         System.out.println("Значение переменной ddShort с типом short равно "+ddShort);
         System.out.println("Значение переменной byByte с типом byte равно "+byByte);
         System.out.println("Задача №3:");
+        short lud=23, ann=27, ekat=30;
+        int all=lud+ann+ekat;
+        short list=480;
+        int each=list/all;
+        System.out.println("На каждого ученика рассчитано " +each+ " листов бумаги");
+        System.out.println("Задача №4:");
+
     }
 }
